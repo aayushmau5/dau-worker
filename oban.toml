@@ -1,0 +1,5 @@
+queues = {media_hash = 2}
+
+# DAU Oban's leader (elected through oban_peers) runs pruning and rescue for the whole
+# oban_jobs table. Turning this on would add a second leader (through oban_leaders).
+leadership = false
